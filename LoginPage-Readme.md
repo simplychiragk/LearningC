@@ -1,7 +1,7 @@
 # Basic Login Page
 
 ## Project Overview
-Welcome to the Basic Login Page, one of my first C programming projects! This simple console-based application prompts the user to rate their excitement level and then simulates a login system by checking a username and password. It's a beginner-friendly project that demonstrates basic C concepts like user input, conditionals, and formatted output.
+Welcome to the Basic Login Page, one of my first C programming projects! This simple console-based application prompts the user to rate their excitement level and then simulates a login system by checking a username and password. It's a beginner-friendly project that demonstrates basic C concepts like user input, conditionals, and formatted output. As I'm still learning C for the first time, I’ve stuck to concepts I’ve learned so far, such as `printf`, `scanf`, and `if-else`, to keep the project simple and understandable.
 
 ## Features
 - **Excitement Level Input**: Users rate their excitement on a scale of 1 to 10, with tailored messages based on their input.
