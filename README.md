@@ -1,3 +1,0 @@
-# LearningC
-"Welcome to my learning journey in C programming! This repository contains my earliest works, ranging from basic syntax exercises (such as calculators and loops) to a bit more advanced programs (e.g., file operations, mini-games). Each project shows my improvement as I work through fundamental concepts such as pointers, memory management, and data structures. I've added comments and notes to describe my thinking, errors, and solutions. Open to feedback, contributions, or collaboration—let's learn together! If you're new to C, feel free to fork, modify, or use these as reference. Happy coding!"
-
