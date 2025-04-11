@@ -1,2 +1,3 @@
 # LearningC
-Throughout this repo, I write about how I learned to code in C with simple projects—beginning with basic 'Hello World' projects, moving towards small tools such as calculators, and delving into fundamental topics such as pointers and memory management. Perfect for fellow newcomers to follow along, fork, or add to!
+"Welcome to my learning journey in C programming! This repository contains my earliest works, ranging from basic syntax exercises (such as calculators and loops) to a bit more advanced programs (e.g., file operations, mini-games). Each project shows my improvement as I work through fundamental concepts such as pointers, memory management, and data structures. I've added comments and notes to describe my thinking, errors, and solutions. Open to feedback, contributions, or collaboration—let's learn together! If you're new to C, feel free to fork, modify, or use these as reference. Happy coding!"
+
