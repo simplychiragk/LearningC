@@ -1,7 +1,5 @@
 # Simple Calculator
 
-![Simple Calculator Banner](https://via.placeholder.com/1200x300.png?text=Simple+Calculator)
-
 A lightweight C program that performs basic arithmetic operations (addition, subtraction, multiplication, division, and modulus) based on user input.
 
 ## Table of Contents
