@@ -29,17 +29,19 @@ This command-line calculator, written in C, prompts the user to input two number
 
 ## Usage
 
-1. Compile the program using a C compiler (e.g., `gcc calculator.c -o calculator`).
-2. Run the executable (`./calculator` on Linux/Mac or `calculator.exe` on Windows).
-3. Enter the first number.
-4. Enter the second number.
-5. Choose an operation (1–5):
+1. Download the raw C file in your desired location.
+2. Open a terminal and navigate to the project directory by executing the command: `cd /path/to/your/file-location.`
+3. Compile the program using a C compiler (e.g., `gcc calculator.c -o calculator`).
+4.  Run the C file using the command `./calculator`
+6. Enter the first number.
+7. Enter the second number.
+8. Choose an operation (1–5):
    - `1` for addition
    - `2` for subtraction
    - `3` for multiplication
    - `4` for division
    - `5` for modulus
-6. View the result or error message.
+9. View the result or error message.
 
 ## Example
 please enter the first number
