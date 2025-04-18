@@ -16,28 +16,23 @@
 - **SIP Calculator**: Based on the monthly SIP amount, expected annual return rate, and tenure, it calculates the future value of your SIP.
 
 ## Usage
-## How to Use:
+## 🚀 How to Use
 
-1. git clone https://github.com/simplychiragk/LearningC.git
+1. **Download the Project**  
+   Go to the repo: [FinCalcX on GitHub](https://github.com/simplychiragk/LearningC)  
+   Click the green **`Code`** button → Select **`Download ZIP`**
 
+2. **Extract the ZIP File**  
+   After downloading, extract the ZIP file anywhere on your computer.
 
-2. Navigate to the project directory:
+3. **Open the Folder**  
+   Navigate into the folder named `LearningC`, then open the `FinCalcX` folder inside it.
 
-    ```bash
-    cd LearningC/FinCalcX.c
-    ```
+4. **Compile the Code**  
+   Open a terminal or command prompt in that folder and run the following command:
 
-3. Compile the code using GCC (make sure you're in the project directory):
-
-    ```bash
-    gcc -o FinCalcX finCalcX.c -lm
-    ```
-
-4. Run the program:
-
-    ```bash
-    ./FinCalcX
-    ```
+   ```bash
+   gcc -o FinCalcX FinCalcX.c -lm
 
 5. Follow the on-screen instructions to use the calculator.
 
