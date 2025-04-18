@@ -42,9 +42,6 @@ This project is a **beginner-friendly** application that uses the basic C concep
 ## Contributing
 As this is a personal learning project, contributions are not required, but if you have any suggestions or feedback, feel free to open an issue or fork the repo. I'm always open to improvements!
 
-## License
-MIT License.
 
----
 
 Thanks for checking out **FinCalcX**! 😎
