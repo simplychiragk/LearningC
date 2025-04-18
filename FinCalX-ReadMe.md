@@ -24,8 +24,7 @@
 2. Navigate to the project directory:
 
     ```bash
-    cd LearningC/FinCalcX
-
+    cd LearningC/FinCalcX.c
     ```
 
 3. Compile the code using GCC (make sure you're in the project directory):
