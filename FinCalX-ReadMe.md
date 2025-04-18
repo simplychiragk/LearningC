@@ -16,25 +16,34 @@
 - **SIP Calculator**: Based on the monthly SIP amount, expected annual return rate, and tenure, it calculates the future value of your SIP.
 
 ## Usage
+## How to Use:
+
 1. Clone the repository:
 
     ```bash
     git clone https://github.com/simplychiragk/FinCalcX.git
     ```
 
-2. Compile the code using GCC:
+2. Navigate to the project directory:
 
     ```bash
-    gcc -o FinCalcX main.c -lm
+    cd FinCalcX
     ```
 
-3. Run the program:
+3. Compile the code using GCC (make sure you're in the project directory):
+
+    ```bash
+    gcc -o FinCalcX finCalcX.c -lm
+    ```
+
+4. Run the program:
 
     ```bash
     ./FinCalcX
     ```
 
-4. Follow the prompts to choose the loan or SIP calculator and input the required details.
+5. Follow the on-screen instructions to use the calculator.
+
 
 ## About This Project
 This project is a **beginner-friendly** application that uses the basic C concepts I’ve learned so far. As I'm still in the process of mastering C, I focused on simple concepts like conditionals, loops, and math functions (`pow` for exponential calculations). The goal is to create a useful tool while continuing to learn and improve my skills.
