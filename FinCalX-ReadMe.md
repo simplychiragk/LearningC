@@ -18,16 +18,14 @@
 ## Usage
 ## How to Use:
 
-1. Clone the repository:
+1. git clone https://github.com/simplychiragk/LearningC.git
 
-    ```bash
-    git clone https://github.com/simplychiragk/FinCalcX.git
-    ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd FinCalcX
+    cd LearningC/FinCalcX
+
     ```
 
 3. Compile the code using GCC (make sure you're in the project directory):
