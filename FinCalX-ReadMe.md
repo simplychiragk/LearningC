@@ -38,7 +38,7 @@
 
 
 ## About This Project
-This project is a **beginner-friendly** application that uses the basic C concepts I’ve learned so far. As I'm still in the process of mastering C, I focused on simple concepts like conditionals, loops, and math functions (`pow` for exponential calculations). The goal is to create a useful tool while continuing to learn and improve my skills.
+This project is a **beginner-friendly** application that uses the basic C concepts I’ve learned so far. As I'm still in the process of mastering C, I focused on simple concepts like switch statements, and math functions (`pow` for exponential calculations). The goal is to create a useful tool while continuing to learn and improve my skills.
 
 ## Contributing
 As this is a personal learning project, contributions are not required, but if you have any suggestions or feedback, feel free to open an issue or fork the repo. I'm always open to improvements!
