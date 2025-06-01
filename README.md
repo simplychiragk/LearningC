@@ -6,11 +6,13 @@
 ## Projects in This Repository
 This repository includes the following projects:
 
-- **Simple Calculator**: A basic C program for performing arithmetic operations (addition, subtraction, multiplication, division, modulus).
-- **Basic Login Page**: A console-based login system that checks a username and password while handling excitement level input.
-- **FinCalcX**: A financial calculator that helps in calculating EMI for home, car, and personal loans, as well as SIP (Systematic Investment Plan) future value.
-- **LiftyLog**: A command-line fitness tracker that calculates your BMR, estimates maintenance calories, and recommends calorie intake based on your fitness goals.
+- **Simple Calculator**: A basic C program for performing arithmetic operations (addition, subtraction, multiplication, division, modulus).  
+- **Basic Login Page**: A console-based login system that checks a username and password while handling excitement level input.  
+- **FinCalcX**: A financial calculator that helps in calculating EMI for home, car, and personal loans, as well as SIP (Systematic Investment Plan) future value.  
+- **LiftyLog**: A command-line fitness tracker that calculates your BMR, estimates maintenance calories, and recommends calorie intake based on your fitness goals.  
+- **Campus Buddy**: A CLI app to manage your grades, attendance, and library stuff — making college life easier and more organized.  
 - **Other Projects**: As I continue to learn, I will be adding more projects related to different C concepts.
+
 
 ## How to Use This Repository
 1. Clone the repository:
