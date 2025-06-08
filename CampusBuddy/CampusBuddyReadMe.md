@@ -1,48 +1,72 @@
-# Campus Buddy: Your Ultimate College Helper CLI
+# 🌟 Campus Buddy: Your Ultimate College Helper CLI
 
-## Project Overview
-Campus Buddy is a neat CLI app built in C to help college students manage their grades, attendance, and library book tracking — all in one place! This project is part of my journey learning C programming and applying basics like input/output, conditionals, and simple arithmetic operations.
+A simple but powerful command-line app built in C for college students to manage their grades, attendance, and library records — now with better code structure using `switch` and `do-while` loops for a smoother user experience.
 
-## Features
-- Course Grade Calculator: Enter marks for 5 subjects and get your total, average, and letter grade.
-- Attendance Tracker: Track classes held vs. attended and get a status update with friendly messages.
-- Library Manager: Manage your issued books by tracking the days issued, used, and remaining.
+## 🧠 Project Overview
 
-## How it Works
-1. User enters their name to start.
-2. User selects the feature they want from the main menu.
-3. Depending on the selection, user inputs relevant data (marks, attendance, or book days).
-4. Program calculates and displays summaries and friendly status messages.
+**Campus Buddy** is your all-in-one student sidekick! Whether you're tracking your marks, figuring out if you're gonna get that attendance warning, or trying to avoid overdue library fines — this app’s got you. Built entirely in C as part of my learning journey, this project puts together real-world student needs and beginner-friendly programming concepts.
 
-## Usage
+## ✨ Features
 
-### 🚀 How to Use
-1. Download or clone the repo.
-2. Open the folder in your terminal or command prompt.
-3. Compile the code using a C compiler, e.g.:
+- 📚 **Course Grade Calculator**  
+  Input marks for 5 subjects and get your total, average, and a fun letter grade with emoji feedback.
+
+- 🗓️ **Attendance Tracker**  
+  Enter total and attended classes to see your attendance percentage and whether you're safe… or bunking too much 😬
+
+- 📖 **Library Manager**  
+  Keep track of how many days you’ve used an issued book and how many you have left before the librarian starts hunting you down.
+
+- 🔁 **Now with Looping & Clean Menus**  
+  Use the main menu as many times as you like, thanks to `do-while`. Plus, we’ve ditched the messy `if-else` for clean `switch-case` logic.
+
+## ⚙️ How It Works
+
+1. Start the app and enter your name.
+2. Choose what you want to do from the main menu.
+3. Enter the required info (marks, attendance, or book days).
+4. View your report, warnings, or vibes.
+5. Loop back to main menu or exit like a boss.
+
+## 🚀 Usage
+
+1. Clone or download this repo.
+2. Open the project folder in your terminal.
+3. Compile the code using:
    ```bash
    gcc -o campus_buddy campus_buddy.c
    ```
-4. Run the executable:
+4. Run it:
    ```bash
    ./campus_buddy
    ```
-5. Follow the on-screen instructions to navigate and use features.
+5. Follow the prompts and enjoy!
 
-## About This Project
-This is a beginner-friendly CLI tool aimed at practicing fundamental C programming concepts like:
-- `scanf` and `printf` for input/output
-- Using `if-else` for decision making
-- Basic arithmetic calculations and validation
-- Handling simple user interaction via the command line
+## 🔧 Built With
 
-## Future Improvements
-- Expand features like a To-Do List Manager (removed for now)
-- Implementation of Functions
+- `scanf` & `printf` for I/O
+- `switch-case` for decision making
+- `do-while` loop for menu navigation
+- Basic arithmetic & user validation
+- Straight-up love for C language 💙
 
-## Contributing
-This is a personal learning project. Contributions are welcome. Feel free to fork or open issues for suggestions and improvements!
+## 🔮 Future Upgrades
+
+- Add a To-Do list / task manager  
+- Break code into functions for better modularity  
+- Add file storage for saving user data  
+- More colorful output and maybe even some ASCII art ✨
+
+## 🤝 Contributing
+
+This is a solo learning project, but I’d love help or feedback!  
+Feel free to fork, suggest, or open issues.
+
+## 📬 Contact
+
+**Email**: chiragkumar.work@gmail.com  
+**GitHub**: [simplychiragk](https://github.com/simplychiragk)
 
 ---
-Email ID:- chiragkumar.work@gmail.com
-Thanks for checking out **Campus Buddy**! Stay organized and ace that college life! 🎓🔥
+
+Thanks for checking out **Campus Buddy** — go ace that college life with good vibes and clean code! 🎓🔥
