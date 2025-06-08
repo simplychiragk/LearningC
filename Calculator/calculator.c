@@ -1,43 +1,73 @@
 #include <stdio.h>
-int main(){
 
-    int firstnumber,secondnumber, result;
-   
-    printf("please enter the first number\n");
-    scanf("%d", &firstnumber);
-    printf("please enter the second number\n");
-    scanf("%d", &secondnumber);
-    printf("please enter the operation you want to perform\n");
-    printf("1 for addition\n2 for subtraction\n3 for multiplication\n4 for division\n5 for modulus\n");
-    int operation;
-    scanf("%d", &operation);
-    if (operation == 1){
-        result = firstnumber + secondnumber;
-        printf("The result of the addition is %d\n", result);
-    }
-    else if (operation == 2){
-        result = firstnumber - secondnumber;
-        printf("The result of the subtraction is %d\n", result);
-    }
-    else if (operation == 3){
-        result = firstnumber * secondnumber;
-        printf("The result of the multiplication is %d\n", result);
-    }
-    else if (operation == 4){
-        if (secondnumber != 0){
-            result = firstnumber / secondnumber;
-            printf("The result of the division is %d\n", result);
+int main() {
+
+    int firstnumber, secondnumber, result, operation;
+    char choice[4];    // To store user choice for continuing or exiting
+
+    do {
+        // Ask user for the first number
+        printf("Please enter the first number\n");
+        scanf("%d", &firstnumber);
+
+        // Ask user for the second number
+        printf("Please enter the second number\n");
+        scanf("%d", &secondnumber);
+
+        // Show operation options to the user
+        printf("Please enter the operation you want to perform\n");
+        printf("1 for addition\n2 for subtraction\n3 for multiplication\n4 for division\n5 for modulus\n");
+
+        // Read the chosen operation
+        scanf("%d", &operation);
+
+        // Perform operation based on user input
+        switch (operation) {
+            case 1:
+                result = firstnumber + secondnumber;
+                printf("The result of addition is: %d\n", result);
+                break;
+            case 2:
+                result = firstnumber - secondnumber;
+                printf("The result of subtraction is: %d\n", result);
+                break;
+            case 3:
+                result = firstnumber * secondnumber;
+                printf("The result of multiplication is: %d\n", result);
+                break;
+            case 4:
+                // Check for division by zero
+                if (secondnumber != 0) {
+                    result = firstnumber / secondnumber;
+                    printf("The result of division is: %d\n", result);
+                } else {
+                    printf("Error: Division by zero is not allowed.\n");
+                }
+                break;
+            case 5:
+                // Check for modulus by zero
+                if (secondnumber != 0) {
+                    result = firstnumber % secondnumber;
+                    printf("The result of modulus is: %d\n", result);
+                } else {
+                    printf("Error: Division by zero is not allowed.\n");
+                }
+                break;
+            default:
+                // If operation is invalid
+                printf("Invalid operation selected. Please choose a valid operation.\n");
+                break;
         }
-        else{
-            printf("Error: Division by zero is not allowed.\n");
-        }
-    }
-    else if (operation == 5){
-        result = firstnumber % secondnumber;
-        printf("The result of the modulus is %d\n", result);
-    }
-    else{
-        printf("Invalid operation selected.\n");
-    }
+
+        // Thank user for using the calculator
+        printf("Thank you for using the calculator!\n");
+
+        // Ask if user wants to go again
+        printf("Do You want to perform another operation? (yes/no)\n");
+        scanf("%s", choice);
+
+    // Repeat loop if user says yes (y or Y)
+    } while (choice[0] == 'y' || choice[0] == 'Y');
+
     return 0;
 }
